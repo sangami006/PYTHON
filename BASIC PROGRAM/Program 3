@@ -1,0 +1,5 @@
+v=float(input("Enter wind speed n kmph:"))
+t=float(input("Enter the temperature in celcius:"))
+c=(13.12+(0.6215*t)-(11.37*(v**0.16))+(0.3956*t*(v**0.16)))
+print("the wind chill index is :")
+print(c)
