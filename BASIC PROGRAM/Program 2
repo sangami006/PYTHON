@@ -1,0 +1,6 @@
+r=int(input("Enter radius of the cylinder:"))
+h=int(input("Enter height of the cylinder:"))
+a=(((2*3.14*r)*h)+((2*3.14*r*r)))
+v=(3.14*r*r*h)
+print(surface areamof cylinder is ":a)
+print("Volume of the cylinder is ":v)
